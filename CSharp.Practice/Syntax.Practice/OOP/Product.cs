@@ -49,6 +49,7 @@ namespace Syntax.Practice.OOP
         private ProductOwner() 
         {
             // Private Constructor is a constructor that is created with private specifier, Other class can not inherited or create an instance of this class.
+            // it used to initilize the class static field
             Console.WriteLine("Private Constructor");
         }
     }
@@ -62,7 +63,8 @@ namespace Syntax.Practice.OOP
     public class Item
     {
         static Item()
-        {
+        {   
+            // Static Constructor is a constructor will be called one time when the first instance of class was created
             Console.WriteLine("Static Constructor");
         }
     }
