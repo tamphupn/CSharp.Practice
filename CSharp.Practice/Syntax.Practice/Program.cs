@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Syntax.Practice.OOP;
+using Syntax.Practice.OOP.Constructor;
 
 Console.WriteLine("Hello, World!");
 

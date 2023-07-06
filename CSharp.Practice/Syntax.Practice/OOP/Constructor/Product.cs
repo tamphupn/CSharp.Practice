@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Syntax.Practice.OOP
+namespace Syntax.Practice.OOP.Constructor
 {
     /*https://www.simplilearn.com/tutorials/c-sharp-tutorial/c-sharp-constructor
     Constructor is a special class method that is called very time when a new instance of class was created, it used to set value for property for data member of class
