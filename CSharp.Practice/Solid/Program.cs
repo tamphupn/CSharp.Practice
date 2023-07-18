@@ -33,7 +33,7 @@ namespace DownloadFiles
     class Program
     {
         private const int TOTAL_FILE = 6;
-        
+
         static void Main(string[] args)
         {
             var taskFileResult = new List<Task>();

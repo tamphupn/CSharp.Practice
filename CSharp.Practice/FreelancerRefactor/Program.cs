@@ -11,13 +11,7 @@ namespace FreelancerRefactor
         Multiply = 3
     }
 
-    public interface ICalculatorService
-    {
-        int Compute();
-        bool IsAvailable(int choice);
-    }
-
-    public abstract class Calculator: ICalculatorService
+    public abstract class Calculator
     {
         protected int Num1;
         protected int Num2;

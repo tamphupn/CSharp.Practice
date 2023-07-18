@@ -1,9 +1,8 @@
 ﻿using System;
-using System.IO;
 
 namespace CountingValleys
 {
-    class Result
+    class Hiker
     {
         public static int CountingValleys(int steps, string path)
         {
@@ -32,15 +31,10 @@ namespace CountingValleys
     {
         static void Main(string[] args)
         {
-            TextWriter textWriter = new StreamWriter(System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
             int steps = Convert.ToInt32(Console.ReadLine().Trim());
             string path = Console.ReadLine();
-            int result = Result.CountingValleys(steps, path);
-            textWriter.WriteLine(result);
-
-            textWriter.Flush();
-            textWriter.Close();
+            int result = Hiker.CountingValleys(steps, path);
+            Console.WriteLine(result);
         }
     }
 }
-
