@@ -10,9 +10,11 @@
   <ItemGroup>
     <None Remove="CreationalPattern\" />
     <None Remove="StruturalPattern\" />
+    <None Remove="BehaviorPattern\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CreationalPattern\" />
     <Folder Include="StruturalPattern\" />
+    <Folder Include="BehaviorPattern\" />
   </ItemGroup>
 </Project>

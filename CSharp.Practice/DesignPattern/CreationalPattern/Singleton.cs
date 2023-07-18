@@ -1,6 +1,10 @@
 ﻿using System;
 namespace DesignPattern.CreationalPattern
 {
+	/*
+	- Singleton
+	- This pattern ensures the class has only one instance and provide a global entry to access
+	 */
 	public class Singleton
 	{
 		static Singleton instance;
