@@ -93,6 +93,7 @@ namespace DesignPattern.CreationalPattern
 	{
 		public static void Run()
 		{
+            Child1 a = new Child1();
             AbstractFactory factory1 = new ConcreteFactory1();
             Client client1 = new Client(factory1);
             client1.Run();

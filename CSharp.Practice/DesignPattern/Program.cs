@@ -8,7 +8,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Abstract Factory");
-        FactoryMethodResult.Run();
+        AbstractFactoryResult.Run();
 
         Console.WriteLine("Factory Method");
         FactoryMethodResult.Run();

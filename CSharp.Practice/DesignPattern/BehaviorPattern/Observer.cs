@@ -1,9 +1,10 @@
 ﻿using System;
 namespace DesignPattern.BehaviorPattern
 {
-	public class Observer
+
+	public class ObserverResult
 	{
-		public Observer()
+		public static  void Run()
 		{
 		}
 	}
