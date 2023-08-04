@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure", "DataStruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackerrank", "Hackerrank\Hackerrank.csproj", "{B8F7A1DE-EA07-4BBD-9278-E5087F96431B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifierService", "AccessModifierService\AccessModifierService.csproj", "{EF607E84-BE69-4B09-ADFA-DCBB87D4F7A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{8017D3BB-9FF9-43B8-BEC6-60A127D53559}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{B8F7A1DE-EA07-4BBD-9278-E5087F96431B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8F7A1DE-EA07-4BBD-9278-E5087F96431B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8F7A1DE-EA07-4BBD-9278-E5087F96431B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF607E84-BE69-4B09-ADFA-DCBB87D4F7A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF607E84-BE69-4B09-ADFA-DCBB87D4F7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF607E84-BE69-4B09-ADFA-DCBB87D4F7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF607E84-BE69-4B09-ADFA-DCBB87D4F7A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8017D3BB-9FF9-43B8-BEC6-60A127D53559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8017D3BB-9FF9-43B8-BEC6-60A127D53559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8017D3BB-9FF9-43B8-BEC6-60A127D53559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8017D3BB-9FF9-43B8-BEC6-60A127D53559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

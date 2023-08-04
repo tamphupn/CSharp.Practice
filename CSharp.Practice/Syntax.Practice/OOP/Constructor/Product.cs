@@ -22,7 +22,7 @@ namespace Syntax.Practice.OOP.Constructor
         public Product()
         {
             // Default constructor is a constructor which do not have any parametered,
-            // and it will be called when an instance of class created, it set number to zero and string to null
+            // and it will be called when an instance of class was created, it set number to zero and string to null
             Console.WriteLine("Default Constructor");
             Console.WriteLine($@"Name: {Name} and Name is NULL {Name is null}");
             Console.WriteLine($@"Price: {Price} and Price is Zero {Price is 0}");
@@ -54,7 +54,7 @@ namespace Syntax.Practice.OOP.Constructor
         }
     }
 
-    // Private Constructor
+    // Private Constructor => throw error
     //public class ProductManager: ProductOwner
     //{
 
