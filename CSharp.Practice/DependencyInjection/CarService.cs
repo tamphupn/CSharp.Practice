@@ -111,53 +111,5 @@ namespace DependencyInjection
             }
         }
     }
-
-    public class ParkingService
-    {
-        private readonly ITransientCarService _transientCarService;
-        private readonly IScopedCarService _scopedCarService;
-        private readonly ISingletonCarService _singletonCarService;
-
-        public ParkingService(ServiceProvider services)
-        {
-            _transientCarService = services.GetService<ITransientCarService>() ?? throw new ArgumentNullException(nameof(ITransientCarService));
-            _scopedCarService = services.GetService<IScopedCarService>() ?? throw new ArgumentNullException(nameof(IScopedCarService));
-            _singletonCarService = services.GetService<ISingletonCarService>() ?? throw new ArgumentNullException(nameof(ISingletonCarService));
-            Console.WriteLine();
-        }
-
-        public void Process()
-        {
-            Console.WriteLine($@"=== {nameof(ParkingService)} Process ===");
-            _transientCarService.Process();
-            _scopedCarService.Process();
-            _singletonCarService.Process();
-        }
-    }
-
-
-    public class SlotService
-    {
-        private readonly ITransientCarService _transientCarService;
-        private readonly IScopedCarService _scopedCarService;
-        private readonly ISingletonCarService _singletonCarService;
-
-        public SlotService(ServiceProvider services)
-        {
-            _transientCarService = services.GetService<ITransientCarService>() ?? throw new ArgumentNullException(nameof(ITransientCarService));
-            _scopedCarService = services.GetService<IScopedCarService>() ?? throw new ArgumentNullException(nameof(IScopedCarService));
-            _singletonCarService = services.GetService<ISingletonCarService>() ?? throw new ArgumentNullException(nameof(ISingletonCarService));
-            Console.WriteLine();
-        }
-
-        public void Process()
-        {
-            Console.WriteLine($@"=== {nameof(SlotService)} Process ===");
-            _transientCarService.Process();
-            _scopedCarService.Process();
-            _singletonCarService.Process();
-        }
-    }
-
 }
 
