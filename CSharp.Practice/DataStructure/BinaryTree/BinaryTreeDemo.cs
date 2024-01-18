@@ -1,7 +1,49 @@
 ﻿using System;
 namespace DataStructure.BinaryTree
 {
-	public class BinaryNode
+    class Result
+    {
+
+        /*
+         * Complete the 'plusMinus' function below.
+         *
+         * The function accepts INTEGER_ARRAY arr as parameter.
+         */
+
+        public static void plusMinus(List<int> arr)
+        {
+            int totalElement = arr.Count();
+            decimal totalPositive = 0, totalNegative = 0, totalZero = 0;
+            for (int i = 0; i < arr.Count; i++)
+            {
+				switch (arr[i])
+				{
+					case > 0:
+						{
+							totalPositive++;
+							break;
+						}
+                    case < 0:
+                        {
+                            totalNegative++;
+                            break;
+                        }
+                    case 0:
+                        {
+                            totalZero++;
+                            break;
+                        }
+					default:
+						break;
+                }
+            }
+
+            string format = "{0:0.000000}";
+            Console.WriteLine($@"{string.Format(format, (decimal)totalPositive / totalElement)} {string.Format(format, (decimal)totalNegative / totalElement)} {string.Format(format, (decimal)totalZero / totalElement)}");
+        }
+    }
+
+    public class BinaryNode
 	{
 		public int Data;
 		public BinaryNode Left, Right;
